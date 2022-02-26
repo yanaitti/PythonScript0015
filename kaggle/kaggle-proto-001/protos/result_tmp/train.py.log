@@ -1,0 +1,199 @@
+2020-07-20 13:59:47,163 __main__ 28 [INFO][<module>] start 
+2020-07-20 13:59:49,698 __main__ 37 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 13:59:49,702 __main__ 39 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 13:59:53,792 __main__ 44 [INFO][<module>] train end 
+2020-07-20 13:59:57,083 __main__ 49 [INFO][<module>] test data load end(892816, 58) 
+2020-07-20 14:00:00,040 __main__ 57 [INFO][<module>] end 
+2020-07-20 14:02:05,431 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:02:07,995 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:02:07,995 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:02:08,103 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:04:37,660 __main__ 99 [DEBUG][<module>]    logloss: 0.15174172968584715, gini: -0.2858977143883852 
+2020-07-20 14:04:37,660 __main__ 108 [INFO][<module>] logloss: 0.15174172968584715, gini: -0.2858977143883852 
+2020-07-20 14:04:37,660 __main__ 109 [INFO][<module>] current min score: -0.2858977143883852, params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 600, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:04:37,664 __main__ 111 [INFO][<module>] minimum params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 600, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:04:37,664 __main__ 112 [INFO][<module>] minimum gini: -0.2858977143883852 
+2020-07-20 14:07:02,360 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:07:05,001 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:07:05,001 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:07:05,005 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:08:11,190 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:08:13,809 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:08:13,809 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:08:13,813 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:10:35,571 __main__ 99 [DEBUG][<module>]    logloss: 0.15174172968584715, gini: -0.2858977143883852 
+2020-07-20 14:10:35,571 __main__ 108 [INFO][<module>] logloss: 0.15174172968584715, gini: -0.2858977143883852 
+2020-07-20 14:10:35,571 __main__ 109 [INFO][<module>] current min score: -0.2858977143883852, params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 600, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:10:35,574 __main__ 111 [INFO][<module>] minimum params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 600, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:10:35,574 __main__ 112 [INFO][<module>] minimum gini: -0.2858977143883852 
+2020-07-20 14:12:34,965 __main__ 119 [INFO][<module>] train end 
+2020-07-20 14:12:38,246 __main__ 131 [INFO][<module>] test data load end (892816, 58) 
+2020-07-20 14:12:43,700 __main__ 139 [INFO][<module>] end 
+2020-07-20 14:16:03,100 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:16:05,743 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:16:05,743 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:16:05,743 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:17:03,914 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:17:06,527 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:17:06,527 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:17:06,527 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:19:29,294 __main__ 99 [DEBUG][<module>]    logloss: 0.15174172968584715, gini: -0.2858977143883852 
+2020-07-20 14:19:29,294 __main__ 108 [INFO][<module>] logloss: 0.15174172968584715, gini: -0.2858977143883852 
+2020-07-20 14:19:29,294 __main__ 109 [INFO][<module>] current min score: -0.2858977143883852, params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 600, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:19:29,298 __main__ 111 [INFO][<module>] minimum params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 600, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:19:29,298 __main__ 112 [INFO][<module>] minimum gini: -0.2858977143883852 
+2020-07-20 14:21:28,257 __main__ 119 [INFO][<module>] train end 
+2020-07-20 14:21:31,509 __main__ 131 [INFO][<module>] test data load end (892816, 58) 
+2020-07-20 14:21:36,936 __main__ 139 [INFO][<module>] end 
+2020-07-20 14:27:37,111 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:27:39,137 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:27:39,137 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:27:39,141 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:30:25,855 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:30:28,455 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:30:28,455 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:30:28,455 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:31:38,170 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:31:40,728 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:31:40,728 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:31:40,728 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:32:03,975 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:32:06,116 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:32:06,116 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:32:06,119 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
+2020-07-20 14:35:30,847 __main__ 43 [INFO][<module>] start 
+2020-07-20 14:35:32,874 __main__ 52 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2020-07-20 14:35:32,874 __main__ 54 [INFO][<module>] data preparation end (595212, 58) 
+2020-07-20 14:35:32,874 __main__ 72 [INFO][<module>] params: {'colsample_bylevel': 0.8, 'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_delta_step': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 10000, 'reg_alpha': 0.1, 'seed': 0} 
